@@ -1,4 +1,4 @@
-package com.example.wattpad.rmbr_it_new;
+package com.jeffryraymond.rememberYou;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
