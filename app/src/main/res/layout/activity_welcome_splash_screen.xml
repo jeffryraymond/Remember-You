@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.wattpad.rmbr_it_new.com.example.wattpad.rememberYou.activities.welcomeSplashScreen">
+    tools:context="com.jeffryraymond.rememberYou.rmbr_it_new.com.example.wattpad.rememberYou.activities.welcomeSplashScreen">
 
     <ImageView
         android:id="@+id/rememberYouLogo"

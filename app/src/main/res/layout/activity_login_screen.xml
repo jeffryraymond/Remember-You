@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.wattpad.rmbr_it_new.com.example.wattpad.rememberYou.activities.LoginScreenActivity">
+    tools:context="com.jeffryraymond.rememberYou.rmbr_it_new.com.example.wattpad.rememberYou.activities.LoginScreenActivity">
 
     <TextView
         android:id="@+id/msgTextView"

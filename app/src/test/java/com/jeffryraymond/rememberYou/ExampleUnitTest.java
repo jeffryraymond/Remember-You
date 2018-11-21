@@ -1,4 +1,4 @@
-package com.example.wattpad.rmbr_it_new;
+package com.jeffryraymond.rememberYou;
 
 import org.junit.Test;
 

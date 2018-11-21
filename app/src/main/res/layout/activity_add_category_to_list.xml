@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.wattpad.rmbr_it_new.com.example.wattpad.rememberYou.fragments.addCategoryToListFragment">
+    tools:context="com.jeffryraymond.rememberYou.rmbr_it_new.com.example.wattpad.rememberYou.fragments.addCategoryToListFragment">
 
     <TextView
         android:id="@+id/enterCategoryTitleMsg"
