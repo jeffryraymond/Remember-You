@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wattpad.rmbr_it_new.com.example.wattpad.rememberYou.fragments.addCategoryToListFragment">
+
+    <TextView
+        android:id="@+id/enterCategoryTitleMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/cabin_medium"
+        android:text="@string/titleForCat"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/newCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterCategoryTitleMsg"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/cabin"
+        android:hint="@string/catName" />
+
+    <Button
+        android:id="@+id/saveNewCategoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newCategoryName"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/save" />
+
+</RelativeLayout>

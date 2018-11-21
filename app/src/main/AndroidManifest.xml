@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jeffryRaymond.rememberYou">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_remember_you_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_remember_you_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.jeffryRaymond.rememberYou.activities.welcomeSplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name="com.jeffryRaymond.rememberYou.activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.jeffryRaymond.rememberYou.activities.LoginScreenActivity" />
+        <activity android:name="com.jeffryRaymond.rememberYou.data.database.activities.EachTaskCategoryListView" />
+        <activity android:name="com.jeffryRaymond.rememberYou.fragments.addCategoryToListFragment" />
+        <activity android:name="com.jeffryRaymond.rememberYou.activities.DeletedTaskListView"></activity>
+    </application>
+
+</manifest>

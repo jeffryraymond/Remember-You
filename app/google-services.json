@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "372033440541",
+    "firebase_url": "https://rmbrit-a63fa.firebaseio.com",
+    "project_id": "rmbrit-a63fa",
+    "storage_bucket": "rmbrit-a63fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372033440541:android:1792332d3dbd080b",
+        "android_client_info": {
+          "package_name": "com.example.wattpad.rmbr_it_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372033440541-5l5oa48kpnp7t01sg9go7952kri244m0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wattpad.rmbr_it_new",
+            "certificate_hash": "7910139beaea4a3d317cba5104e9294a646e0607"
+          }
+        },
+        {
+          "client_id": "372033440541-sc2ad3jadgpak4v9rc7t7c7k25uq1ve0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYVDwHt4XSnfYjKCY0xvEq9nG6FWSEmIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372033440541-sc2ad3jadgpak4v9rc7t7c7k25uq1ve0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372033440541:android:423ba6455f143af1",
+        "android_client_info": {
+          "package_name": "com.example.wattpad.rmbrit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372033440541-sc2ad3jadgpak4v9rc7t7c7k25uq1ve0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYVDwHt4XSnfYjKCY0xvEq9nG6FWSEmIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
